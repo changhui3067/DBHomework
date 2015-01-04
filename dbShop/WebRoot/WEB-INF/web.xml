@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowGoodsClServlet</servlet-name>
+    <servlet-class>com.sp.serlvet.ShowGoodsClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoppingClServlet</servlet-name>
+    <servlet-class>com.sp.serlvet.ShoppingClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoppingCl2</servlet-name>
+    <servlet-class>com.sp.serlvet.ShoppingCl2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginCl</servlet-name>
+    <servlet-class>com.sp.serlvet.LoginCl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderClServlet</servlet-name>
+    <servlet-class>com.sp.serlvet.OrderClServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ShowGoodsClServlet</servlet-name>
+    <url-pattern>/ShowGoodsClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingClServlet</servlet-name>
+    <url-pattern>/ShoppingClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingCl2</servlet-name>
+    <url-pattern>/ShoppingCl2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginCl</servlet-name>
+    <url-pattern>/LoginCl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderClServlet</servlet-name>
+    <url-pattern>/OrderClServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
