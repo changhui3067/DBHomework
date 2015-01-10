@@ -9,12 +9,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <td align="center" bgcolor="#FFCCCC">合作伙伴: <a href="http://www.sohu.com">搜狐</a> <a href="http://www.163.com">网易</a> 百度 新浪</td>
   </tr>
   <tr>
-    <td align="center">地址：北京市崇文区 客户服务热线直拨：010-0000000</td>
+    <td align="center">地址：南京 中国 客户</td>
   </tr>
   <tr>
-    <td align="center">邮编：100000 客服信箱：shawn@sina.com</td>
+    <td align="center">邮编：211189<br></td>
   </tr>
   <tr>
-    <td align="center">Copyright 时尚购物网 </td>
+    <td align="center">Copyright 会飞的猫咪书店 </td>
   </tr>
 </table>
